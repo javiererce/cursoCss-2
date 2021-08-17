@@ -1,0 +1,245 @@
+  /* Estilos generales*/
+
+#galeria-inicio,figure,footer,header,nav,section{
+    display: block;
+}
+body{
+    background: rgb(14, 13, 13) ;
+    color: #f1efed;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    min-height: 100vh;
+}
+a{
+    color: #f3f3f7;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0.25em;
+}
+a:hover{
+    color:#919287;
+}
+img,video{ 
+    max-width: 90%;
+    border-radius: 0.50em;
+    margin: 0.70em;
+}
+
+header,footer,#galeria-inicio{
+    max-width: 100%;
+    text-align: center;
+} 
+header h1,nav{
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: center;
+}
+.link{
+    color: black;
+}
+.link:hover{
+    color:#2c08f7;
+
+}
+nav ul,ul li{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    padding: 0.1em;
+    vertical-align: middle;
+}
+nav a{
+    border-radius: 00.50em;
+    color: rgb(250, 247, 245);
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    padding: 0.2em;
+}
+p{
+    color: #fcfafa;
+}
+#galeria-inicio{
+    background: #080808;
+    border-radius: 00.50em;
+    display: inline-block;
+    text-align: center;
+    margin: 2em ;
+    max-width: 100%;
+    padding: 0.25em;
+    vertical-align: top;
+    width: 100%;
+    height: 90%;
+    opacity: 0.80;
+}
+footer{  
+    background:white;
+    opacity: 0.90; 
+    color: black;
+    padding: 0.75em 0;
+    height: 70%;
+}
+.ulfoo{
+    display: flex;
+    display: inline-block;
+    vertical-align: middle;
+}
+h1,h2{
+    margin-top: 1em;
+    max-height: 9.375rem;
+    font-size: 2.25rem;  
+   
+    color: rgb(48, 240, 246);
+}
+h2{
+    text-align: center;
+    color: white;
+}
+
+     .card-title{
+         color: #f8f5f5;
+     }
+    
+     .card-group{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+         margin: 3em;
+            
+     }
+     .card{
+        border: #eeedec solid ;
+         width: 26.25rem;
+         height: 31.25rem;
+         margin: 2em;
+         background: rgb(49, 49, 48);
+     }
+    
+     .articulo{
+        margin-left: 20%;
+         margin-right: 15%;
+         width: 60%;
+         text-align: center;
+         font-family: 'Times New Roman', Times, serif;
+        
+     }
+     .articulo p{
+         font-size: 1.25rem;
+         text-align: center;
+     }
+  
+  
+  .lii a{
+      color: black;
+  }
+  header {
+    background-color: rgb(34, 37, 37); 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15px;   
+} 
+   /* media query*/
+@media (min-width:1081px){
+    header h1{
+        text-align: left;
+        width: 35%;
+    }
+    nav{
+        text-align: center;
+        width: 60%;
+    }
+
+}
+@media(max-width: 1080px){
+    nav li{
+        font-size: 1em;
+    }
+    #galeria-inicio{
+        width: 90%;
+    }
+}
+@media (min-width:800px){
+    #galeria-inicio{
+        width: 95%;
+    }
+    
+    
+    
+}
+@media(max-width: 600px){
+    nav li{
+        display: inline-block;
+        margin: 0px;
+        width: 90%;
+    }
+
+    .card-title{
+        display: block;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+}
+/* fin de media query*/
+
+    /*  formulario en la página */
+
+   form {
+    margin: 0 auto;
+    width: 40%;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+  }
+ 
+  textarea {
+    font: 1em sans-serif;
+    width: 500px;
+    box-sizing: border-box;
+    height: 200px;
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+  
+    height: 5em;
+  }
+  
+  
+  button {
+    margin-left: .5em;
+  }
+   /* fin de formulario*/
+
+   
+    
+    
+
+
+
+
+
